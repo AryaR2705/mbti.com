@@ -1,0 +1,191 @@
+
+/* 
+        .left{
+            border:3px solid blue;
+            display: inline-block;
+            top: 8px;
+        }         */
+        body{
+            background-color: rgb(238, 237, 237);   
+    
+        }
+        /* .middle{
+
+            display: inline-block;
+            position: relative;
+            padding-left: 220px;
+            padding-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 4em;
+            text-decoration-line: underline;
+            text-underline-offset: 0.3em;
+            display: flex;
+            flex-wrap: wrap;
+            opacity: 100%;
+            transition: 0.5s ease;
+        }   */
+        h1{
+            position: relative;
+            text-align: center;
+        }   
+        .right{
+
+            display: inline-block;  
+            top: 20px;
+            right: 20px;
+            position: absolute;
+            transition: 0.2s ease;
+ 
+        }
+        .right img{
+            width: 50px;
+
+        }
+
+        .right button{
+            z-index: 1;
+            position: relative;
+            margin-top: 20px;
+            margin-left: -70px;
+            background-color: rgb(231, 231, 231);
+            box-shadow: 0 0 0px;
+            border-radius: 3px;
+        }
+        .right button:hover{
+
+            cursor: pointer;
+
+            text-shadow: 100;
+            box-shadow: 0 0 0px,
+                        0 0 2.5px,
+                        0 0 5px;
+            border-radius: 6px;
+            transition: 0.2s ease;
+        }
+        
+
+        .text{
+            display: inline-block;
+            font-size: 20px;
+            top: 200px;
+            border: black;
+            border-width: 5px;
+            border-radius: 10px;
+            border-style: outset;
+            left: 50px;
+            width: 1200px;
+            position: absolute;
+            padding-right: 20px;
+            padding-left: 110px;
+            padding-bottom: 100px;
+            padding-block-start: 50px;
+            padding-block-end: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            opacity: 100%;
+            transition: 0.5s ease-out;
+        }
+        .hrone{
+            margin: 100px;
+            width: 1200px;
+
+            margin-left: -45px;
+            margin-right: auto;
+
+            border-top: solid rgb(0, 0, 0);
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .test button:last-child{ 
+            color: rgb(0, 0, 0);
+            margin-left: 425px;
+            margin-top: 1;
+            background-color: rgb(133, 199, 131);
+            text-align: center;
+            box-shadow: 0 0 0.2px;
+            border-radius: 5px;
+            transition: 0.2s ease;
+
+        }
+        .test button:last-child:hover{
+
+            cursor: pointer;
+            color: rgb(0, 0, 0);
+
+            background-color: rgb(134, 193, 208);
+            text-align: center;
+            box-shadow: 0 0 0px,
+                        0 0 1.5px,
+                        0 0 3px;
+            border-radius: 10px;
+
+
+        }
+        
+        .creator{
+            position: relative;
+            margin-top: 1600px;
+            margin-left: 50px;
+        }
+        .text table{
+            position: relative;
+            margin-left: 50px;
+            width: 975px;
+            height: 400px;
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .bar{
+
+            position: fixed;
+            margin-left: 1133px;
+            /* margin-left: 1420px; */
+
+            margin-top: -1833px;
+            background: rgb(151, 151, 151);
+            padding-left: 15px;
+            padding-right: 290px;
+            padding-bottom: 800px;
+            padding-top: 250px;
+            left: -1px;
+            transition: 0.5s ease-out;
+            display: none;
+        }
+        .bar button{
+            width: 280px;
+            height: 100px;
+            border-radius: 5px;
+            background-color: rgb(232, 232, 232);
+        }
+        .bar button:hover{
+            background-color: rgb(133, 199, 131);
+            border-radius: 10px;
+            box-shadow: 0 0 5px;
+            transition: 0.2s ease;
+
+        }
+        .text button{
+            background-color: rgb(216, 216, 216);
+            width: 250px;
+            height: 100px;
+            border-color: rgb(186, 186, 186);
+            border-radius: 5px;
+            transition: 0.3s ease;
+
+        }
+        .text button:hover{
+            cursor: pointer;
+            background-color: rgb(245, 198, 198);
+            width: 250px;
+            height: 100px;
+            border-color: rgb(186, 186, 186);
+            border-radius: 8px;
+            box-shadow: 0 0 0px,
+                        0 0 1.5px,
+                        0 0 3px;
+
+        }
+        .text table, tr{
+            border-radius: 5px;
+        }

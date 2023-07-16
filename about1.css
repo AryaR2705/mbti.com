@@ -1,0 +1,11 @@
+
+.mbti{
+    border: 3px solid rgb(170, 169, 169);
+    padding: 10px;
+    display: flex;
+}
+.title{
+    border-style: groove;
+    text-align: center;
+    border: 10px solid rgb(131, 131, 131);
+}
